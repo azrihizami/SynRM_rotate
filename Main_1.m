@@ -103,6 +103,7 @@ mi_clearselected;
 n = 10; %number of turns
 Imax = 20;  % peak current (A)
 f = 50;    % frequency electric supply in (Hz)
+T = 1/f;   % electrical period (sec) 
 load_theta = 0;  % Load angle (rad)
 t = T/(2*pi)*load_theta;  % electrical time 
 % ----------> DEFINE AS LOAD ANGLE (CONTROL PARAMETERS)
