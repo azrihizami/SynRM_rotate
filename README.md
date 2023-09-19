@@ -27,4 +27,4 @@ The repository includes:
 6. 'Stator_points_134.mat'	: The nodes parameters file of the stator. Needed to recreate the stator in 1 and 5. 
 7. 'Stator_segments_134.mat'	: The segments parameters file of the stator. Needed to recreate the stator in 1 and 5.
 8. 'Stator_arcs_134.mat'	: The arc segments parameters file of the stator. Needed to recreate the stator in 1 and 5.
-
+9. 'TriphaseCurrent.m'		: A matlab code that plot the 3 phases current for value verification
