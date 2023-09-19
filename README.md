@@ -5,7 +5,7 @@ The main program to analyze the machine topology: Main_1.m
 	To run it the steps below need to be followed:
 	a. Create a CAD model of the machine to be studied
 	b. Export the cross section of the machine into dxf file
-	c. Import the dxf file into FEMM. To make rotational movement in batches of FE analysis, the rotor need to be rotated, ison=lated form the stator. 
+	c. Import the dxf file into FEMM. To make rotational movement in batches of FE analysis, the rotor need to be rotated, isolated form the stator. 
 	So, select only the rotor and save a FEMM file for an initial rotor position.
 	d. Run the 'Rotate_rotor.m' program that creates duplicate of the rotor at chosen position and angular rotation resolution.
 	e. Run the 'Main_1.m' program that does the following:
